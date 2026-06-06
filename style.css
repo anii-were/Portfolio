@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    color: #40514e;
+}
+
+.highlight{
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #66bfbf;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #66bfbf;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #11999e;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+hr {
+    border: dotted #d6eaf8 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 80px auto;
+}
+
+.hero {
+    background-color: #e4f9f5;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-text {
+    padding-top: 150px;
+    font-size: 40px;
+    color:  #66bfbf;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.mountain {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    max-width: 90%;
+}
+
+.profile {
+    padding: 100px 20px;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.profile p {
+    max-width: 600px;
+    margin: auto;
+}
+
+.resume {
+    padding: 50px 20px;
+}
+
+.resume-card {
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+.resume-card ul {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.projects {
+    padding: 50px 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    background: #f8f9fa;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about {
+    padding: 50px 20px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+}
+
+.contact {
+    padding: 50px 20px 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #11cdd4;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #30e3cb;
+}
+
+footer {
+    background: #66bfbf;
+    padding: 40px 20px;
+}
+
+footer a {
+    margin: 0 15px;
+    color: #11999e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p {
+    margin-top: 20px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .top-cloud {
+        right: 30px;
+    }
+
+    .bottom-cloud {
+        left: 20px;
+        bottom: 250px;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
